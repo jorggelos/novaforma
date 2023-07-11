@@ -11201,3 +11201,198 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+
+.section-boxs,
+.section-list{
+  padding: 50px 0;
+}
+/*-----------------------------------------------------------------------------
+  Section com Boxs
+-----------------------------------------------------------------------------*/
+.section-boxs{
+  background: #f7f8fa;
+  min-height:200px;
+  padding: 50px 0;
+}
+.lists-box{
+  margin: auto;
+  width: 50%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+
+
+
+}
+.lists-box li{
+  background: #fff;
+  border:1px solid #d8e3ef;
+  padding: 30px;
+  border-radius:10px;
+ 
+
+  display: flex;
+}
+.lists-box li .text-list-box{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.lists-box li i{
+  width: 60px;
+  height: 30px;
+  font-size: 4.0rem;
+
+}
+.lists-box li .text-list-box span{
+  font-size: 2.0rem;
+  color:#212c38;
+  font-family: 'bold';
+}
+.lists-box li .text-list-box p{
+  font-size: 1.6rem;
+  color: #72909b;
+  margin-top: 15px;
+}
+
+
+/*-----------------------------------------------------------------------------
+  Section com Listas
+-----------------------------------------------------------------------------*/
+.section-list{
+  background: #FFF;
+  padding: 100px 0;
+}
+
+.lists {}
+
+.lists li {
+  display: flex;
+  flex: 1;
+  border-bottom:1px solid #d8e3ef;
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lists li.first-li .product span{
+  padding-left: 45px;
+  font-family: 'bold', Arial, Helvetica, sans-serif;
+}
+.lists li.first-li .description p{
+  font-family: 'bold', Arial, Helvetica, sans-serif;
+}
+
+.lists li .product {
+  max-width: 335px;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.lists li .product span{
+  font-size: 1.8rem;
+  font-family: 'regular', Arial, Helvetica, sans-serif;
+  color: #323232;
+}
+
+.lists li .product i{
+  margin-right: 20px;
+  font-size: 2.5rem;
+  color:#218bc5;
+}
+
+.lists li .description {
+  flex:1;
+}
+.lists li .description p{
+  font-size: 1.6rem;
+  font-family: 'regular', Arial, Helvetica, sans-serif;
+  color: #323232;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icone-furto-roubo:before {
+  content: "\e900";
+}
+.icon-icone-colisoes:before {
+  content: "\e901";
+}
+.icon-icone-perda-total:before {
+  content: "\e902";
+}
+.icon-icone-incendio:before {
+  content: "\e903";
+}
+.icon-icone-granizo:before {
+  content: "\e904";
+}
+.icon-icone-brasil:before {
+  content: "\e905";
+}
+.icon-check-2:before {
+  content: "\e906";
+}
+.icon-check:before {
+  content: "\e907";
+}
+.icon-left:before {
+  content: "\e908";
+}
+.icon-whatsapp:before {
+  content: "\e909";
+}
+.icon-icone-carro-reserva:before {
+  content: "\e90a";
+}
+.icon-icone-vidros:before {
+  content: "\e90b";
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows:auto auto;
+  padding: 20px;
+}
+
+.grid-item{
+  height:225px;
+  display: grid;
+  padding: 10px;
+  grid-template-rows: 50px 50px;
+}
+
+.title-section{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.title-section span{
+  color: #212c38;
+  font-size: 4.0rem;
+  font-family: 'bold', Arial, Helvetica, sans-serif;
+}
+.title-section p{
+  color: #72909b;
+  font-size: 2.2rem;
+  font-family: 'medium';
+  margin-top: 10px;
+}
+
